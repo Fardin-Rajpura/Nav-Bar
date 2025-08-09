@@ -1,0 +1,107 @@
+body{
+  background-image: url(./image/bg\ for\ web.jpg);
+  background-size: cover;
+}
+
+.w-1140 {
+  width: 1140px;
+  margin: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li {
+  float: left;
+  list-style: none;
+
+}
+
+ul li a {
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+}
+
+ul li a:hover {
+  color:#D96F32;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.menu {
+  width: 50%;
+  background-color: transparent;
+  position: absolute;
+  left: 150px;
+  padding: 10px;
+  display: none;
+  box-shadow: 0px 0px 5px 0px black;
+  font-family: Arial;
+} 
+
+ul li:hover .menu {
+  display: block;
+}
+
+.w-50 {
+  width: calc(50% - 22px);
+  background-color:transparent;
+  float: left;
+  border-right: 2px solid #D96F32;
+  padding: 10px;
+  font-family: Arial;
+}
+
+.w-50 ul li a {
+  background-color: transparent;
+  width: 150px;
+  text-align: left;
+  padding-left: 10px;
+  display: block;
+  font-family: Arial;
+}
+
+.border-none {
+  border: none
+}
+
+.w-50 h3 {
+  padding: 10px;
+  color: #D96F32;
+  border-bottom: 1px solid #D96F32;
+  font-family: Arial;
+}
+
+.menu1 {
+  width: 16%;
+  background-color: transparent;
+  color:white;
+  position: absolute;
+  left: 600px;
+  padding: 0px;
+  display: none;
+  box-shadow: 0px 0px 5px 0px black;
+  font-family: Arial ;
+
+}
+
+ul li:hover .menu1 {
+  display: block;
+  border: 2px solid #D96F32;
+  border-radius: 20px;
+}
